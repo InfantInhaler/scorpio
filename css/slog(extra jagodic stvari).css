@@ -1,0 +1,85 @@
+.navbar-inverse{
+background-color:#ffffff
+}
+/* Pisava, velikost in barva naslovov */
+body{ font-family: Roboto, Helvetica, Arial, sans-serif; }
+h1 { color: rgba(85,61,123,1.0) }
+h2 { color: rgba(85,61,123,0.85); font-size: 2em; font-weight: bold }
+h3 { color: rgba(85,61,123,0.80); font-size: 2em }
+p {font-size: 1.15em;}
+
+/* okvir <header>: Logotip in navigacija */
+.navbar {
+   margin-bottom: 30px;
+   border-radius: 0;
+   background-color: #252525;
+   color: #222;
+   border: 0;
+   font-size: 1.2em;
+}
+
+/* Oblikovne lastnosti ikone menija */
+.navbar-inverse .navbar-toggle {
+   border-color: #aaa;
+   background-color: #aaa;
+   margin-top: 30px;
+}
+
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover {
+   border-color: #666;
+   background-color: #666;
+}
+
+/* Oblikovne lastnosti logotipa */
+.navbar-brand {
+   float: left;
+   min-height: 85px;
+   padding: 10px 0 0 25px;
+}
+
+/* Oblikovne lastnosti navigacije */
+.navbar-inverse .navbar-nav { margin-top: 40px; }
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+   color: #D65039;
+   background-color: #fff;
+   font-weight: bolder;
+   border-radius: 5px;
+}
+
+.navbar-inverse .navbar-nav li a {
+   color: #999;
+   padding: 3px 8px;
+}
+
+.navbar-inverse .navbar-nav li a:hover { color: #D65039; }
+
+@media (max-width: 767px) {
+   .navbar-inverse .navbar-nav {
+      margin-top: 5px;
+      padding-left: 25px;
+   }
+}
+
+.dropdown-menu{
+   position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #D65039;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}

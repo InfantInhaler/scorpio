@@ -1,0 +1,310 @@
+.navbar-inverse{
+background-color:#ffffff
+}
+
+/* Pisava, velikost in barva naslovov */
+body{ font-family: 'Oswald', 'Tahoma', sans-serif;}
+h1 { color: #ff0000 }
+h2 { color: #D65039; font-size: 1.5em; font-weight: bold }
+h3 { color: rgba(85,61,123,0.80); font-size: 2em }
+p {font-size: 1.15em;}
+div{color:black;}
+a{
+  
+   color: black;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  
+  transition:.5s;
+}
+a:hover{color: #D65039;
+  text-decoration: none;
+}
+a:visited{color: #a53e2c;}
+footer{
+  background-color: white;
+}
+
+/* okvir <header>: Logotip in navigacija */
+.navbar {
+   margin-bottom: 0px;
+   border-radius: 0;
+   background-color: #009900;
+   color: black;
+   border: 0;
+   font-size: 135%;
+}
+
+/* Oblikovne lastnosti ikone menija */
+.navbar-inverse .navbar-toggle {
+   border-color: #aaa;
+   background-color: #aaa;
+   margin-top: 30px;
+}
+
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover {
+   border-color: #666;
+   background-color: #666;
+}
+
+/* Oblikovne lastnosti logotipa */
+.navbar-brand {
+   float: left;
+   /*min-height: 85px;*/
+   min-height: 100px;
+   padding: 1px 0 0 5px;
+}
+
+/* Oblikovne lastnosti navigacije */
+.navbar-inverse .navbar-nav { 
+   margin-top: 40px; 
+
+   
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+   color: red;
+   background-color: black;
+   font-weight: bolder;
+   border-radius: 5px;
+
+}
+.zgoact, .zgoact:focus, .zgoact:focus{
+  color: #D65039 !important;
+   background-color: #fff !important;
+   font-weight: bolder;
+   border-radius: 5px;
+}
+
+.navbar-inverse .navbar-nav li a {
+   color: black;
+   font-weight: bold;
+   padding: 3px 8px 5px 8px;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  
+  transition:.5s;
+}
+
+.navbar-inverse .navbar-nav li a:hover { color: #D65039; background-color: rgba(61, 61, 61, 50); border-radius: 5px;  }
+
+@media (max-width: 767px) {
+   .navbar-inverse .navbar-nav {
+      margin-top: 5px;
+      padding-left: 25px;
+   }
+}
+
+.slide1{
+  
+  height: 500px;
+  position: relative;
+
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: .4em;
+  font-weight: bolder;
+  color:red;
+
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+
+.slajdr{
+   width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   
+
+}
+@media(max-width: 900px){
+   .slajdr{
+      
+      height: 150%;
+      width: auto;
+      
+   }
+}
+
+.okvir{
+   font-size: 200%;
+   background-color: #252525;
+   color: #D65039;
+   text-align: center;
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.besediloFP{
+   font-size: 200%;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+.ikone{
+   text-align: center;
+   border:5px dotted #D65039;
+   border-radius: 10px;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+   max-width: 400px;
+   padding: 10px 0px;
+   margin-left: auto;
+   margin-right: auto;
+   transition: 0.5s;
+
+}
+.ikone:hover{
+   background-color:#e2e2e2;
+}
+.minitekst{
+   font-size: 85%;
+   color: #686767;
+}
+
+footer{
+   color: white;
+   background-color:#009900;
+   margin-top: 20px;
+   padding: 20px 0;
+   font-size: 120%;
+
+}
+
+.belLink{
+   color: white;
+}
+.belLink:hover{
+   color: #D65039;
+}
+h4{
+   font-weight: bold;
+   font-size: 110%;
+   margin-bottom: 20px;
+}
+.gumbGor{
+   float: right;
+   background-color:#D65039;
+   border:none;
+   width: 40px;
+   height: 40px;
+   border-radius: 10px;
+}
+
+.zgoTekst{
+   font-size: 150%;
+   border:2px solid #D65039;
+   border-radius: 5px;
+   padding: 15px;
+   
+}
+.zgoImg{
+      margin-bottom: 20px;
+      max-width: 100%;
+      height: auto;
+      border:2px solid #D65039;
+      border-radius: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+   }
+.borderFix{
+   margin-bottom: 10px;
+}
+
+
+@media (max-width: 991px) {
+   .zgoImg{
+      margin-top: 20px;
+   }
+}
+.kontaktImg{
+      max-width: 100%;
+      height: auto;
+   }
+
+@media(max-width: 768px){
+   .kontaktMap{
+      width: 100%;
+   }
+}
+.kontaktText{
+   font-size: 150%;
+}
+
+@media(min-width: 1450px){
+   .padFix{
+      padding-left: 100px;
+   }
+}
+@media(max-width: 400px){
+   .footMap{
+      width: 100%;
+   }
+}
+@media(max-width: 400px){
+   h1{
+      text-align: center;
+   }
+}
+
+.kjIMG{
+   margin-top: 20px;
+   width: 100%;
+   height: auto;
+   border:2px solid #D65039;
+   border-radius: 10px;
+}
+.kjTekst{
+   font-size: 150%;
+   border-radius: 10px;
+}
+
+.naslovCar{
+  color: white;
+}
+
+#mod1{
+  margin: 10px auto 10px;
+  display: block;
+  }
+
+@media(max-width: 590px){
+   #mod1{
+    width: 100%;
+    height: auto;
+  }
+}
+#katasterDZRJK{
+  margin-top:-280px;
+  margin-right: -150px;
+  padding-top: 50px;
+}
+@media(max-width:990px){
+  #katasterDZRJK{
+    height: 1300px;
+    margin-top: -310px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
